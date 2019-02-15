@@ -5,6 +5,6 @@ setup(
     packages=find_packages(),
     version='0.1.0',
     description='ML classification project ',
-    author='mailei',
+    author='Mailei Vargas',
     license='MIT',
 )
