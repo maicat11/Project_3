@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Context Ad Clicks
 
 ## Metis Project Mcnulty - Classification
