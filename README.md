@@ -138,11 +138,7 @@ Below displays the significance of the features towards the XGBoost model.  As e
 * Use of all the data for training and validation may increase the results.  
 
 * A useful Flask app would be useful for someone in digital marketing and/or sales in which to guide them towards a sale of arrangment of details in the ad to increase its click power.    
-=======
-project_3
-==============================
 
-ML classification project 
 
 Project Organization
 ------------
