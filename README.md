@@ -43,11 +43,12 @@ The dataset was provided in eight relational tables some of which contained hund
 
 
 
-![image-20190214225453339](/Users/maileivargas/Library/Application Support/typora-user-images/image-20190214225453339.png)
+<img width="705" alt="Screen Shot 2019-05-15 at 2 01 57 PM" src="https://user-images.githubusercontent.com/20651507/57809729-ed8ff380-771a-11e9-9e78-9e2f04b310e1.png">
+
 
 Since there was an abundance of data that I was ill equiped to handle here is a brief path of the journey the data took:
 
-​			`.tsv`  $->$ `.csv` $->$ `AWS` $->$ `postgreSQL`  $->$ `local postgreSQL` 
+​			`.tsv`  -> `.csv` -> `AWS` -> `postgreSQL`  -> `local postgreSQL` 
 
 Once I had a proportion (1 million+) of the data to work with locally, this made for faster run times on queries.  The original dataset contained too many entries that a simple select query would take a long time to run, even after inserting indexes on certain columns.  
 
@@ -166,6 +167,3 @@ Project Organization
 
 
 --------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
->>>>>>> e8619661f308cb7030991a7ae57fafd0d0bdd215
