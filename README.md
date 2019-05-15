@@ -105,7 +105,7 @@ I preformed first a `RandomGridSearch` which gave me a basis for `GridSearch` an
 
 The results of the ROC curve was basically the same for the three tree based models with an AUC score of ~0.72 or 0.73 on the test data.  Note that this graph is "zoomed in" to capture the slight difference in the 3 models. 
 
-![image-20190214230249304](/Users/maileivargas/Library/Application Support/typora-user-images/image-20190214230249304.png)
+![Screen Shot 2019-05-15 at 2 10 59 PM](https://user-images.githubusercontent.com/20651507/57809940-7e66cf00-771b-11e9-82bf-7c21f501abc8.png)
 
 
 
@@ -113,7 +113,7 @@ The three models also had very similar $F1$ scores ~0.66 - 0.67 on the test data
 
 
 
-![image-20190214230356651](/Users/maileivargas/Library/Application Support/typora-user-images/image-20190214230356651.png)
+![Screen Shot 2019-05-15 at 2 11 18 PM](https://user-images.githubusercontent.com/20651507/57809944-8161bf80-771b-11e9-98d8-282c676206f1.png)
 
 
 
@@ -121,13 +121,13 @@ An image of the confusion matrix for the CATBoost model.  Again, they all behave
 
 
 
-![image-20190214230507783](/Users/maileivargas/Library/Application Support/typora-user-images/image-20190214230507783.png)
+![Screen Shot 2019-05-15 at 2 11 36 PM](https://user-images.githubusercontent.com/20651507/57809946-845cb000-771b-11e9-9e8d-961f8ca3391c.png)
 
 
 
 Below displays the significance of the features towards the XGBoost model.  As expected, the `host_ctr` feature had the largest impact since is is reflective of users prior click through rate.  
 
-![image-20190214231446456](/Users/maileivargas/Library/Application Support/typora-user-images/image-20190214231446456.png)
+![Screen Shot 2019-05-15 at 2 11 51 PM](https://user-images.githubusercontent.com/20651507/57809951-8757a080-771b-11e9-9ed0-29edc127b020.png)
 
 
 
